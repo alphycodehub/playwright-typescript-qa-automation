@@ -8,7 +8,7 @@ export default defineConfig({
   workers: 4,
   reporter: [['html'], ['list']],
   use: {
-    baseURL: 'https://example.com',
+    baseURL: 'https://the-internet.herokuapp.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
