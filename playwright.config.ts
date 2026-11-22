@@ -8,7 +8,7 @@ export default defineConfig({
   workers: 4,
   reporter: [['html'], ['list']],
   use: {
-    baseURL: 'https://the-internet.herokuapp.com',
+    baseURL: 'https://www.saucedemo.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
